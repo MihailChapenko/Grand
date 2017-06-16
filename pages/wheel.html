@@ -45,10 +45,13 @@
       <div class="container">
         <div class="navbar-header">
           <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+            <span class="menu">Меню</span>
+            <div class="visible-xs">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </div>
           </button>
         </div>
 
@@ -67,30 +70,76 @@
   </section>
   <section id="content">
     <div class="container">
-      <div class="all-services">
-        <div class="row">
-          <div class="about col-lg-9">
+        <nav id="service-nav" class="navbar navbar-default col-md-3 col-sm-4">
+            <div class="navbar-service">
+              <button id="navbarToggleServ" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-service-nav" aria-expanded="false">
+                <span class="kindofserv">Види послуг</span>
+                <div class="visible-xs">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </div>
+              </button>
+            </div>
+            <div id="collapsable-service-nav" class="collapse navbar-collapse">
+                 <ul id="section-menu" class="nav navbar-nav navbar-left">
+                  <li><a id="engine" href="services.html">Ремонт двигунiв</a></li>
+                  <li><a id="chassis" href="../pages/chassis.html">Ремонт ходової</a></li>
+                  <li><a id="oil" href="../pages/oil.html">Замiна мастила</a></li>
+                  <li><a id="wheel" class="focus-item" href="../pages/wheel.html">Розвал-сходження</a></li>
+                  <li><a id="comp" href="../pages/computer.html">Комп'ютерна дiагностика</a></li>
+                  <li><a id="reductor" href="../pages/reductor.html">Ремонт заднiх мостiв та редукторiв</a></li>
+                  <li><a id="fuel" href="../pages/fuelsys.html">Ремонт паливних систем</a></li>
+                  <li><a id="parts" href="../pages/parts.html">Автозапчастини новi та б/у</a></li>
+                  <li><a id="turner" href="../pages/turner.html">Токарні та фрезернi роботи</a></li>
+                  <li><a id="kpp" href="../pages/kpp.html">Ремонт КПП</a></li>
+                  <li><a id="generator" href="../pages/generator.html">Ремонт генераторiв, стартерiв та турбiн</a></li>
+                </ul><!-- #nav-list -->
+              </div><!-- .collapse .navbar-collapse -->
+          </nav><!-- #header-nav -->
+        <div class="about col-md-9 col-sm-8">
               <img class="about-img" src="../img/chassis1.jpg" alt="">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, itaque doloremque. Distinctio, totam. Mollitia ex accusantium, laudantium aperiam, totam quam soluta a, assumenda corporis quisquam dolorem aliquam tenetur excepturi. Possimus, corrupti odio dolorum alias natus magni ipsum, quis deserunt voluptatem doloremque, aspernatur minus amet distinctio? Vel accusantium, excepturi alias, minima unde sunt iure molestiae temporibus deserunt, ab repellat ipsum odio vitae! Dicta excepturi id aut veniam molestiae nemo, numquam vel rem, aliquam delectus. Officiis ullam debitis, placeat dolorem adipisci deserunt enim tempora. Dolore esse, ea enim, perferendis commodi dolores reprehenderit, officia sit corrupti repudiandae fuga explicabo sint doloribus libero nihil architecto doloremque voluptatum. Voluptas ab debitis, accusamus ullam optio, recusandae molestiae culpa soluta officiis minus fugit aliquam exercitationem totam perferendis aliquid, animi reprehenderit maxime impedit id cupiditate
+              <h3>Ремонт двигунів</h3>
+              <p>Кожен автомобіль, як і жива істота, має серце – двигун. І жоден виробник не може
+              гарантувати Вам, що двигун працюватиме вічно. Саме тому діагностика та, у разі
+              необхідності, ремонт двигуна – це найважливіша послуга нашого автосервісу.</p>
+              <h4>Особливості двигунів при потребі ремонту двигуна</h4>
+              <p>Зазвичай рекомендується проводити ремонт двигунів, якщо Ви стали помічати за своїм
+                 автомобілем прояви таких деталей:</p>
+                 <img class="about-img" src="../img/chassis3.jpg" alt="">
+               <ul>
+                 <li>Підвищення витрати масла. Це може викликатися течею масла
+                   через прокладки або сальники двигуна або зношенням гільзопоршневої
+                   групи. При зношенні гильзопоршневої групи може спостерігатися дим
+                   сірого кольору з вихлопної труби (окрім значних витрат масла).</li>
+                 <li>Залишання калюж масла на асфальті під двигуном.</li>
+                 <li>Значна втрата потужності.</li>
+                 <li>Побічні шуми в двигуні.</li>
+                 <li>Проведення викиду охолоджуючої рідини заливною горловиною.</li>
+                 <li>Надмірна вібрація або збої в роботі двигуна.</li>
+               </ul>
+               <h4>Причин, через які доводиться робити ремонт двинуга, величезна
+                 кількість. Ось деякі з них:</h4>
+                 <img class="about-img" src="../img/chassis2.jpg" alt="">
+               <ul>
+                 <li>Використання неякісного масла або несвоєчасна його заміна</li>
+                 <li>Використання незадовільного пального</li>
+                 <li>Недостатнє охолодження двигуна та т.і.</li>
+               </ul>
+               <h4>У нашому сервісі Ви зможете швидко та якісно:</h4>
+               <ul>
+                 <li>відремонтувати голівки блоку циліндра двигуна (включаючи їх
+                   зняття та встановлення на автомобіль);</li>
+                 <li>відремонтувати блок циліндрів двигуна;</li>
+                 <li>Налагодити роботу двигунів, включаючи їх часткове розбирання
+                   і збирання.</li>
+               </ul>
+               <p>Звертаючись до спеціалістів нашого сервісу, Ви отримуєте професійний
+                  ремонт двигунів з дотриманням усіх необхідних технологій за кращою
+                   ціною у місті. Чекаємо на Вас!</p>
           </div>
-          <div class="menu-serv col-lg-3">
-            <ul class="section-menu">
-              <li><a id="engine" href="services.html">Ремонт двигунiв</a></li>
-              <li><a id="chassis" href="../pages/chassis.html">Ремонт ходової</a></li>
-              <li><a id="oil" href="../pages/oil.html">Замiна мастила</a></li>
-              <li><a id="wheel" class="focus-item" href="../pages/wheel.html">Розвал-сходження</a></li>
-              <li><a id="comp" href="../pages/computer.html">Комп'ютерна дiагностика</a></li>
-              <li><a id="reductor" href="../pages/reductor.html">Ремонт заднiх мостiв та редукторiв</a></li>
-              <li><a id="fuel" href="../pages/fuelsys.html">Ремонт паливних систем</a></li>
-              <li><a id="parts" href="../pages/parts.html">Автозапчастини новi та б/у</a></li>
-              <li><a id="turner" href="../pages/turner.html">Токарні та фрезернi роботи</a></li>
-              <li><a id="kpp" href="../pages/kpp.html">Ремонт КПП</a></li>
-              <li><a id="generator" href="../pages/generator.html">Ремонт генераторiв, стартерiв<br> та турбiн</a></li>
-            </ul>
-          </div>
-        </div>
       </div>
-    </div>
   </section>
   <section id="partners">
       <div class="container">
@@ -108,6 +157,7 @@
   <footer>
       <div class="container">
         <p class="copyright">All rights reserved / Grand Auto Business 2017</p>
+        <a id="to-up" class="visible-xs" href="#site-header"></a>
       </div>
   </footer>
   <!-- /Footer -->

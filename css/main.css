@@ -68,7 +68,6 @@ iframe {
 }
 #nav-list a {
   color: #fff;
-  padding-left: 44px;
 }
 #nav-list li:first-child {
   margin-top: 40px;
@@ -596,6 +595,7 @@ form > p {
   }
   #nav-list li {
     border-top: 1px solid #fff;
+    padding-left: 30px;
   }
   .glyphicon-earphone,
   .glyphicon-home,
@@ -812,6 +812,10 @@ form > p {
 .about > h4 {
     font-size: 20px;
     color: black;
+}
+.title-img {
+  float: left;
+  margin: 0 20px 10px 0;
 }
 /*PAGE ABOUT END*/
 
