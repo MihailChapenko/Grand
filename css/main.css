@@ -107,7 +107,7 @@ iframe {
     margin: 0 2px;
     background-color: #f00;
     border-color: #f00;
-    opacity: .3;
+    opacity: .2;
 }
 .fade-carousel .carousel-indicators > li.active {
   width: 10px;
@@ -414,10 +414,10 @@ iframe {
   background-image: url(../img/mobil.png);
 }
 .partner-item5 {
-  background-image: url(../img/mg.png);
+  background-image: url(../img/knecht.png);
 }
 .partner-item6 {
-  background-image: url(../img/esso.png);
+  background-image: url(../img/gates.png);
 }
 /*CONTACTS*/
 #contacts {
@@ -803,6 +803,10 @@ form > p {
     font-size: 16px;
     text-align: justify;
     line-height: 1.5em;
+    text-indent: 2em;
+}
+.about > ul > li {
+  line-height: 1.5em;
 }
 .about > h3 {
   font-size: 24px;
